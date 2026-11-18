@@ -1,10 +1,13 @@
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+
 streamlit
-torch
-torchvision
 transformers
-hsemotion-onnx==0.3.1
-onnx
+hsemotion-onnx
 onnxruntime
-opencv-python-headless==4.10.0.84
+opencv-python<5
 numpy<2
 pillow
