@@ -1,9 +1,10 @@
+streamlit
 torch
 torchvision
-streamlit
 transformers
-hsemotion-onnx
+hsemotion-onnx==0.3.1
+onnx
 onnxruntime
-opencv-python-headless<5
-numpy
+opencv-python-headless==4.10.0.84
+numpy<2
 pillow
